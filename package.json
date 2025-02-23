@@ -1,0 +1,24 @@
+{
+  "name": "cypress-api-tests",
+  "version": "1.0.0",
+  "description": "Repositório de automação de testes de API usando Cypress. Inclui testes para requisições HTTP (GET, POST, PUT, DELETE), validação de respostas e integração com pipelines CI/CD. Configuração simples e eficiente para garantir a qualidade das APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miochelt-BR/cypress-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Miochelt-BR/cypress-api-tests/issues"
+  },
+  "homepage": "https://github.com/Miochelt-BR/cypress-api-tests#readme",
+  "dependencies": {
+    "cypress": "^14.0.3"
+  }
+}
