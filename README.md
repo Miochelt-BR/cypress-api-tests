@@ -1,6 +1,6 @@
 # Cypress API Tests
 
-![Cypress API Tests]([https://miro.medium.com/v2/resize:fit:1400/0*CkYF8pNwANy6rgbp.png](https://files.oaiusercontent.com/file-MFExpGJaTwYow44pAXgwsZ?se=2025-02-23T04%3A43%3A09Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1f4b93af-42e3-4847-9279-2a1fee6de28f.webp&sig=Ze8cnBHarGnff5SAEqcwZNSNW4a0diwZmKaiUnpoqOU%3D))
+![Cypress API Tests](https://miro.medium.com/v2/resize:fit:1400/0*CkYF8pNwANy6rgbp.png)
 
 Este repositório contém testes de automação de API utilizando [Cypress](https://www.cypress.io/), uma ferramenta moderna e poderosa para automação de testes de front-end e back-end. O projeto inclui testes para as principais requisições HTTP (GET, POST, PUT, DELETE), validação de respostas e integração com pipelines CI/CD. A configuração é simples e eficiente, garantindo que suas APIs atendam aos requisitos de qualidade de forma rápida e confiável.
 
