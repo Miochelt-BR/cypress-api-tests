@@ -3,14 +3,20 @@
 describe("Buscar agendamentos", () => {
   
   it("Deve buscar agendamento com sucesso", () => {
+    const bookingId = '33'; 
+
     cy.request({
       method: "GET",
-      url: "https://restful-booker.herokuapp.com/booking/764",
-     failOnStatusCode: false 
-    }).as("getResultStatus");
+      url: `https://restful-booker.herokuapp.com/booking/${bookingId}`,
+      failOnStatusCode: false
+    }).then((response) => {
+      expect(response.status).to.equal(200);
 
-    cy.get("@getResultStatus").then((response) => {
-      console.log(response);
+
+      expect(response.body).to.be.an("object");
+     
+
+      
     });
   });
 
