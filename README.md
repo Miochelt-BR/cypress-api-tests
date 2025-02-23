@@ -1,6 +1,6 @@
 # Cypress API Tests
 
-![Cypress API Tests](https://user-images.githubusercontent.com/3797080/144363355-7b763fb7-2f8a-4712-927b-d1a1656d44fc.gif)
+![Cypress API Tests](https://miro.medium.com/v2/resize:fit:1400/0*CkYF8pNwANy6rgbp.png)
 
 Este repositório contém testes de automação de API utilizando [Cypress](https://www.cypress.io/), uma ferramenta moderna e poderosa para automação de testes de front-end e back-end. O projeto inclui testes para as principais requisições HTTP (GET, POST, PUT, DELETE), validação de respostas e integração com pipelines CI/CD. A configuração é simples e eficiente, garantindo que suas APIs atendam aos requisitos de qualidade de forma rápida e confiável.
 
