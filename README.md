@@ -8,3 +8,14 @@ Este repositório contém testes de automação de API utilizando [Cypress](http
 
 A estrutura do projeto é organizada da seguinte maneira:
 
+## Instalação
+
+Para começar a usar este repositório, siga as etapas abaixo:
+
+### 1. Clone o Repositório
+
+```bash
+git clone https://github.com/SEU-USUARIO/cypress-api-tests.git
+cd cypress-api-tests
+
+
