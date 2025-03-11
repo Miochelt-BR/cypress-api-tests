@@ -1,7 +1,9 @@
 /// /// <reference types="cypress" />
 
+const registerdata= require("../fixtures/registerData.json")
+
 describe("Buscar agendamentos", () => {
-  
+ 
   it("Deve criar e buscar agendamento com sucesso", () => {
     cy.request({
       method: "POST",
@@ -9,17 +11,7 @@ describe("Buscar agendamentos", () => {
       headers: {
         "Content-Type": "application/json"
       },
-      body: {
-        "firstname": "Thiago",
-        "lastname": "Brown",
-        "totalprice": 111,
-        "depositpaid": true,
-        "bookingdates": {
-          "checkin": "2018-01-01",
-          "checkout": "2019-01-01"
-        },
-        "additionalneeds": "Breakfast"
-      }
+      body: registerdata,
     }).then((postResponse) => {
       expect(postResponse.status).to.equal(200);
       expect(postResponse.body).to.have.property("bookingid");
