@@ -23,3 +23,24 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add("criarAgendamento", (dados) => {
+  return cy.request({
+    method: "POST",
+    url: "https://restful-booker.herokuapp.com/booking",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: dados
+  });
+});
+
+
+Cypress.Commands.add("buscarAgendamento", (id) => {
+  return cy.request({
+    method: "GET",
+    url: `https://restful-booker.herokuapp.com/booking/${id}`,
+    failOnStatusCode: false
+  });
+});
